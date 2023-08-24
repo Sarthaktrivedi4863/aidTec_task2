@@ -1,0 +1,95 @@
+#b2{
+    width: 500px;
+    height: 250px;
+    text-align: center;
+    border: 8px solid black;
+    margin: auto;
+    display: grid;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px;
+    background-color: rgb(192, 189, 189);
+}
+h1{
+    text-align: center;
+    color: chocolate;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.ra :hover{
+   
+    color: blue;
+    cursor: pointer;
+}
+#a2{
+    color:black;
+    font-weight: bold;
+    margin: 10px;
+}
+#b2 input{
+    height: 20px;
+    margin: 10px;
+    margin-top: 8px;
+    border: 2px solid black;
+    border-radius: 6px;
+    box-shadow: 4px 4px 5px;
+    background-color: lightsteelblue;
+    padding: 8px;
+    text-align: center;
+}
+#b2 input:hover{
+    cursor: pointer;
+   
+}
+#b2 input:active{
+    box-shadow: none;
+}
+#b2 input[type="submit"]{
+    margin: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 7px;
+    background-color: red;
+    box-shadow: 4px 4px 5px;
+    border: 2px solid black;
+    height: 30px;
+}
+#b2 input[type="submit"]:hover{
+    cursor: pointer;
+}
+#b2 input[type="submit"]:active{
+    box-shadow: none;
+}
+#lk{
+    text-align: left;
+    margin-left: 0px;
+    color: grey;
+    font-size: smaller;
+}
+body{
+    background-color: lightseagreen;
+}
+#temp_diff{
+    height: 40px;
+    width: 170px;
+    margin: 10px;
+    margin-top: 8px;
+    border: 2px solid black;
+    border-radius: 6px;
+    box-shadow: 4px 4px 5px;
+    background-color: lightsteelblue;
+    padding: 4px;
+    font-size: 14px;
+    text-align: center;
+}
+#temp_diff:hover{
+    cursor: pointer;
+}
+h3{
+    color: rgb(98, 44, 193);
+    font-weight: bold;
+}
+span{
+box-shadow: 4px 4px 5px;
+background-color: greenyellow;
+}

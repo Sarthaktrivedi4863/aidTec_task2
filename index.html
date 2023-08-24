@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Temperature Converter</h1>
+
+
+
+    <div id="b2">
+        <h3>Enter degree and select the degree.</h3>
+        <form onsubmit="calculate(); return false">
+            <input type="number" placeholder="Input Temperature" name="temp" id="temp">
+            
+            <select name="temp_diff" id="temp_diff">
+                <option >select</option>
+                <option value="celci">&#176;Celcius to &#176;Fahrenheit</option>
+                <option value="fahre">&#176;Fahrenheit to &#176;Celcius</option>
+            </select>
+            <p></p>
+
+            <input type="submit" name="temp" id="submit">
+            <br><br>
+            <span id="result"></span>
+        </form>
+        <p><i id="lk">sartahktrivedi</i></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
